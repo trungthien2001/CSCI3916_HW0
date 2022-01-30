@@ -8,7 +8,15 @@ module.exports = async (phrase) => {
         }
     })
 
-    return JSON.stringify(results.data);
+    //return JSON.stringify(results.data);
+    let customObject = {
+        data: results.data,  
+        status: results.status,  
+        statusText: results.statusText,  
+        headers: results.headers, 
+        requestHeader: results.config.headers 
+    }
+    return customObject
 }
 
 /*  console.log(results.data);
