@@ -1,0 +1,23 @@
+Request Headers
+User-Agent: PostmanRuntime/7.29.0  	;browser or tool that made the call 
+Accept: */*			   	;indicates which content types, expressed as MIME types, the client is able to understand.
+Postman-Token: 143a983d-f673-4712-ae3a-eb72fb03162c ;custom token that postman sends
+Host: www.googleapis.com 	   	;where the request going to
+Accept-Encoding: gzip, deflate, br 	;how is the data encoded 
+Connection: keep-alive		   	;my connect, keep alive or close
+Response Headers
+Vary: Origin				;different vary headers		   
+Vary: X-Origin
+Vary: Referer
+Content-Type: application/json; charset=UTF-8 	;content type of the payload that coming back
+Content-Encoding: gzip			;how is the data encoded
+Date: Mon, 30 Jan 2022 01:43:59 GMT	;date of the response
+Server: ESF				;type of server
+Cache-Control: private			;
+X-XSS-Protection: 0			;is a feature of Internet Explorer, Chrome and Safari that stops pages from loading when they detect reflected cross-site scripting (XSS) attacks	
+X-Frame-Options: SAMEORIGIN		; can be used to indicate whether or not a browser should be allowed to render a page in a <frame>, <iframe>, <embed> or <object>.
+X-Content-Type-Options: nosniff		;indicate that the MIME types advertised in the Content-Type headers should be followed and not be changed.
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+					;The Alt-Svc HTTP header allows a server to indicate that another network location (the "alternative service") can be treated as authoritative for that origin when making future requests.
+Transfer-Encoding: chunked		;how is it encoding
+Response Body
