@@ -11,7 +11,7 @@ Vary: X-Origin
 Vary: Referer
 Content-Type: application/json; charset=UTF-8 	;content type of the payload that coming back
 Content-Encoding: gzip			;how is the data encoded
-Date: Mon, 30 Jan 2022 01:43:59 GMT	;date of the response
+Date: Mon, 31 Jan 2022 01:43:59 GMT	;date of the response
 Server: ESF				;type of server
 Cache-Control: private			;
 X-XSS-Protection: 0			;is a feature of Internet Explorer, Chrome and Safari that stops pages from loading when they detect reflected cross-site scripting (XSS) attacks	
